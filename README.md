@@ -12,6 +12,22 @@ First steps in analysing the data.
   - [ ] how do the fields vary?
   - [ ] what is the value we can deliver and to whom?
 
+## Questions
+
+Suggested questions to ask (from the competition guidelines)
+
+  - [ ] Are there any data quality issues?
+  - [ ] Are there any demographic patterns in illnesses?
+  - [ ] Which pharmacies have best patient loyalty; is loyalty age skewed?
+  - [ ] Distribution of packet sizes (are larger pack sizes favoured, why?
+        Does this change by geographical location?)
+  - [ ] Are generic medicines favoured by any geographical location, age or gender?
+  - [ ] Any explanation of the seasonal demand patterns?
+  - [ ] Any specific seasonal patterns for particular drugs?
+  - [ ] Any suspicious behavior in the data?
+  - [ ] Can patients be clustered by drug usage patterns?
+  - [ ] Any insights about where the trajectory of the health of Australia is heading?
+
 ## Techniques
 
 Techniques to try on the data - based on examples/samples from books etc.
