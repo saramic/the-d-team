@@ -15,6 +15,38 @@
 
   `pip install -r requirements.txt`
 
+**Maps**
+
+**Google GMaps**
+
+according to https://github.com/pbugnion/gmaps
+
+    ```{bash}
+    $ pip install -U jupyter
+    $ jupyter nbextension install --py --sys-prefix widgetsnbextension
+    $ jupyter nbextension enable --py --sys-prefix widgetsnbextension
+
+    $ pip install gmaps
+    $ jupyter nbextension install --py --sys-prefix gmaps
+    $ jupyter nbextension enable --py --sys-prefix gmaps
+    ```
+
+finally configure the API key which I suggest via an environment variable
+
+    export GMAP_API_THE_D_TEAM=AI...pc
+
+then in the code you can refer to it
+
+    gmaps.configure(api_key=os.environ['GMAP_API_THE_D_TEAM'])
+
+Read more on how to use maps in notebooks
+
+  http://jupyter-gmaps.readthedocs.io/en/latest/gmaps.html
+
+**Leaflet**
+
+https://github.com/ellisonbg/ipyleaflet
+
 **Google Cloud**
 
 I started looking at this but am not convinced we need this if we can do a `pandas.read_gbq`
