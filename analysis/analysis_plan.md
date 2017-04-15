@@ -34,7 +34,6 @@ which stores belong to which chains - checked, too difficult/impossible to enric
 coexisting chronic illness and order of acquiring
 
 
-how being insured by Banner Group affects buying choices
 
 uniform way of naming new variables
 
@@ -47,3 +46,15 @@ which cities are early adopters of new medication, can it be used to predict how
 or early adopters based on any aggregation
 
 situation/complication/questions/solutions - in what tool? kanban/excel
+
+create a description for each column - share files and find the meaning
+
+resources link in trello - add there
+
+subsidizing for medication PBS, how does it link to medication prices, how annual updates affect medication consumption
+related columns GovernmentReclaim_Amt, Ethical_sth
+investigate how wholesale is related to patient price
+different medidcation programs, other than PBS
+vaccines - immunisation statistics
+revenue in general, reuse the map app
+how advertising influences sales, doctor behavior/patient behavior
