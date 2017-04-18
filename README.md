@@ -65,7 +65,14 @@ First steps in analysing the data.
   - [x] how many patients have an age?
     
     **only 6.8% - 37,809 out of 558,353**
+    
+  - [x] how many different postcodes to patients buy from?
 
+    **35 for patient 109876 and only around half buy from 1**
+    [analysis](analysis/Stores_per_patient.ipynb)
+
+  - [ ] how far do patients buy from?
+  
   - [x] what is the distribution of age?
     
     **Peak around 1945**
@@ -119,7 +126,24 @@ Suggested questions to ask (from the competition guidelines)
 ## Tools
 
   infografic tool for final presnetation
-  * ...
+  * a good list http://www.creativebloq.com/infographic/tools-2131971
+  * is there a way to make a notebook look more like an infographic?
+  * is a notebook exported to PDF enought?
+  * demo of embedding [D3.js in notebook](https://github.com/cmoscardi/embedded_d3_example)
+    * via [Embedding D3 in an IPython Notebook](http://blog.thedataincubator.com/2015/08/embedding-d3-in-an-ipython-notebook/)
+    * [D3 gallery](https://github.com/d3/d3/wiki/Gallery)
+  * can draw with [Ciaro](http://www.tortall.net/mu/wiki/CairoTutorial)
+  * interactive with [Bokeh](https://www.analyticsvidhya.com/blog/2015/08/interactive-data-visualization-library-python-bokeh/)
+  * some examples
+    * https://flipboard.com/@vinayk/data-analysis-%2C-infographics%2C-tools-%26-examples-1qt8tkraz
+    * [How to design infographics](https://designschool.canva.com/how-to-design-infographics/)
+    * lot's of visualization demos http://www.visualisingdata.com/resources/
+    * [sparklines on map demo](http://www.datascienceassn.org/content/geosparkgrams-tiny-histograms-map-ipython-notebook-and-d3js)
+    * [GIS information visualisation](https://au.pinterest.com/jennybarnard157/gis-information-visualisation/)
+    * [GIS visualization](https://au.pinterest.com/jcramac/gis/)
+    * [Visualization](https://au.pinterest.com/bhayek02/visualization/)
+    * [Beautiful plots with Pandas and matplotlib](https://datasciencelab.wordpress.com/2013/12/21/beautiful-plots-with-pandas-and-matplotlib/)
+    * http://dataviz.tools/category/interactive-charting/
   
   visualization
   * shiny & shiny dashboard in R https://rich.shinyapps.io/college_map/  https://www.showmeshiny.com/response-times/
@@ -191,6 +215,7 @@ Suggested questions to ask (from the competition guidelines)
 Techniques to try on the data - based on examples/samples from books etc.
 
   - [ ] Python/R notebooks
+    * a good resource https://github.com/donnemartin/data-science-ipython-notebooks
   - [ ] Deep Learning
     * based on examples from Deep Learning with Python - using Keras
       - [ ] binary classification - like classifying IMDB movie reviews
