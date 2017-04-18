@@ -9,8 +9,23 @@ First steps in analysing the data.
 
   - [ ] What does it represent?
   - [ ] what do the fields mean?
+  
+    **column meanings added for transactions files, there are some questions to be asked during hackday 2**
+    
   - [ ] how do the fields vary?
   - [ ] what is the value we can deliver and to whom?
+  
+    * **Government**
+      + information about how NHS subsidizing policies shape medication consumption
+      + interactive geospatial visualization and summary of medical spendings and seasonal patterns
+      + disease trends
+      + epidemic signals (daily data would give them even better predictive power)
+      + drug oversuse
+    * **Pharmacies**
+      + how to predict the future consumption and stock properly, including data from NHS and seasonal trends
+    * **Chain stores**
+      + regions with high spending, finding good places for expanding business
+
 
 ## Questions and Answers
 
@@ -31,6 +46,8 @@ First steps in analysing the data.
     Lipitor, Micardis), a few still growing(Panadol Osteo, Spiriva)**
     [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
 
+  - [ ] What are the 10 most popular drugs with regards to amount of daily doses sold?
+  
   - [ ] What leads to sudden drops in some popular drugs?
 
   - [ ] Do many other drugs have sudden drops like Crestor, Lipitor, Micardis?
@@ -74,6 +91,8 @@ First steps in analysing the data.
     [initial analysis](analysis/Illness_overview.ipynb)
     - [ ] normalize against spread of data per age
     - [ ] normalize against each other to compare peaks
+    
+   - [ ] Does using certain drugs predicts development of additional illnesses in the future?
 
 ## Questions
 
