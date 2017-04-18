@@ -94,7 +94,8 @@ First steps in analysing the data.
     
    - [ ] Does using certain drugs predicts development of additional illnesses in the future?
 
-  - [ ] how many different postcodes to patients buy from?
+  - [x] how many different postcodes to patients buy from?
+
     **35 for patient 109876 and only around half buy from 1**
     [analysis](analysis/Stores_per_patient.ipynb)
 
