@@ -258,6 +258,24 @@ Techniques to try on the data - based on examples/samples from books etc.
     - other?
   - [ ] visualisation with React and D3.js
 
+## Bad data
+
+  - 1900 births
+  - postcode in data wrong `1212	QLD	5615	1` should be 4615 for Qld
+  - postcode in our data out of date
+
+      SELECT 5090 AS postcode
+      , 'Hope Valley' AS suburb
+      , 'SA' AS state
+      , 'NULL' AS dc
+      , 'NULL' AS type
+      , -34.847 AS lat
+      , 138.699 AS lon
+      , 0 AS regional_category
+      , 'Metropolitan' AS regional_name
+
+  - duplicate records???
+
 ## Results
 
 Results from the data
