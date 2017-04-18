@@ -57,6 +57,14 @@ First steps in analysing the data.
   - [ ] Given that there is a general growth in useage, what is replacing the
     use of Crestor, Lipitor, Micardis?
 
+    **Lipitor went out of patent Nov 2011 and by Jan 2012 70% of users switched
+    onto generics**
+    [initial analysis](analysis/Lipitor_replacement.ipynb)
+
+    - [ ] who are the people who switched? by geo, by store, etc
+    - [ ] what is the cost impact?
+    - [ ] why is there no increase in useage?
+
   - [ ] In drug transactions over time, there is a peak every 3 months or so why?
 
   - [ ] In drug transactions over time, there is a peak in Dec and drop in Jan why?
@@ -103,6 +111,13 @@ First steps in analysing the data.
    - [ ] Does using certain drugs predicts development of additional illnesses in the future?
    
    - [ ] What can be expected about drugs popularity based on NHS subsidizing updates each year?
+
+   - [ ] how much money is being made per store?
+
+    **up to $1.75M per year per store in Inner Regional Australia in NSW,
+    interestingly there was a peak in 2012 and currently a declie**
+    [analysis](analysis/Sales_per_store_by_region.ipynb)
+
 ## Questions
 
 Suggested questions to ask (from the competition guidelines)
