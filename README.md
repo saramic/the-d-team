@@ -12,6 +12,57 @@ First steps in analysing the data.
   - [ ] how do the fields vary?
   - [ ] what is the value we can deliver and to whom?
 
+## Questions and Answers
+
+  - [ ] What is the most popular drug by number of transactions?
+        **Crestor**
+        [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
+
+  - [ ] What are the 10 most popular drugs?
+        **CRESTOR, PANADOL OSTEO, LIPITOR, NEXIUM, COVERSYL, MICARDIS, SPIRIVA,
+        NOTEN, ATACAND, SOMAC**
+        [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
+
+  - [ ] What is the trend of the 10 most popular drugs?
+        **They are mostly in decline, some with very sharp drops (Crestor,
+        Lipitor, Micardis), a few still growing(Panadol Osteo, Spiriva)**
+        [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
+
+  - [ ] What leads to sudden drops in some popular drugs?
+
+  - [ ] Do many other drugs have sudden drops like Crestor, Lipitor, Micardis?
+        what do they have in common?
+
+  - [ ] Given that there is a general growth in useage, what is replacing the
+        use of Crestor, Lipitor, Micardis?
+
+  - [ ] In drug transactions over time, there is a peak every 3 months or so why?
+
+  - [ ] In drug transactions over time, there is a peak in Dec and drop in Jan why?
+        holidays? is it really so pronounced? ask a pharmacist?
+
+  - [ ] how many patients have an age?
+        **only 6.8% - 37,809 out of 558,353**
+
+  - [ ] what is the distribution of age?
+        **Peak around 1945**
+        [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/File_field_analysis.ipynb)
+
+  - [ ] is there a correlation between something and the patients who have an
+        age? pharamcy? drug? particular source system?
+
+  - [ ] what areas do we have no patients for? by postcode? are there any significant areas?
+
+  - [ ] what are some of the characteristics of source systems by drug? geography? etc...
+
+  - [ ] what is the distribution of drug prices?
+
+  - [ ] what is the distribution vs ATC other?
+
+  - [ ] what is the patient distribution compared to geography? city vs country? vs real population?
+
+  - [ ] what correlations exist in the data? correlate all vs all and cluster?
+
 ## Questions
 
 Suggested questions to ask (from the competition guidelines)
@@ -30,10 +81,14 @@ Suggested questions to ask (from the competition guidelines)
 
 ## Tools
 
+  infografic tool for final presnetation
+  * ...
+
   maps
   * read up more http://jupyter-gmaps.readthedocs.io/en/latest/gmaps.html
   * https://github.com/pbugnion/gmaps
   * https://github.com/ellisonbg/ipyleaflet
+  * svg for area on map of region/postcode
 
   interactive python notebooks
   * https://github.com/jupyter-widgets/ipywidgets
@@ -61,6 +116,15 @@ Suggested questions to ask (from the competition guidelines)
     via http://www.corra.com.au/australian-postcode-location-data/ in
     http://www.corra.com.au/downloads/Australian_Post_Codes_Lat_Lon.zip
     alternative is to use http://v0.postcodeapi.com.au/
+
+    **Postcode categorisation**
+    http://mams.rmit.edu.au/gdn3pkz4qzna1.pdf
+    * 1) Inner Regional Australia
+    * 2) Outer Regional Australia
+    * 3) Remote Australia
+    * 4) Very Remote Australia
+
+    Or potentially this http://www.aihw.gov.au/rural-health-remoteness-classifications/
 
   * Census
 
