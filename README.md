@@ -15,41 +15,41 @@ First steps in analysing the data.
 ## Questions and Answers
 
   - [ ] What is the most popular drug by number of transactions?
-        **Crestor**
-        [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
+    **Crestor**
+    [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
 
   - [ ] What are the 10 most popular drugs?
-        **CRESTOR, PANADOL OSTEO, LIPITOR, NEXIUM, COVERSYL, MICARDIS, SPIRIVA,
-        NOTEN, ATACAND, SOMAC**
-        [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
+    **CRESTOR, PANADOL OSTEO, LIPITOR, NEXIUM, COVERSYL, MICARDIS, SPIRIVA,
+    NOTEN, ATACAND, SOMAC**
+    [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
 
   - [ ] What is the trend of the 10 most popular drugs?
-        **They are mostly in decline, some with very sharp drops (Crestor,
-        Lipitor, Micardis), a few still growing(Panadol Osteo, Spiriva)**
-        [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
+    **They are mostly in decline, some with very sharp drops (Crestor,
+    Lipitor, Micardis), a few still growing(Panadol Osteo, Spiriva)**
+    [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
 
   - [ ] What leads to sudden drops in some popular drugs?
 
   - [ ] Do many other drugs have sudden drops like Crestor, Lipitor, Micardis?
-        what do they have in common?
+    what do they have in common?
 
   - [ ] Given that there is a general growth in useage, what is replacing the
-        use of Crestor, Lipitor, Micardis?
+    use of Crestor, Lipitor, Micardis?
 
   - [ ] In drug transactions over time, there is a peak every 3 months or so why?
 
   - [ ] In drug transactions over time, there is a peak in Dec and drop in Jan why?
-        holidays? is it really so pronounced? ask a pharmacist?
+    holidays? is it really so pronounced? ask a pharmacist?
 
   - [ ] how many patients have an age?
-        **only 6.8% - 37,809 out of 558,353**
+    **only 6.8% - 37,809 out of 558,353**
 
   - [ ] what is the distribution of age?
-        **Peak around 1945**
-        [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/File_field_analysis.ipynb)
+    **Peak around 1945**
+    [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/File_field_analysis.ipynb)
 
   - [ ] is there a correlation between something and the patients who have an
-        age? pharamcy? drug? particular source system?
+    age? pharamcy? drug? particular source system?
 
   - [ ] what areas do we have no patients for? by postcode? are there any significant areas?
 
@@ -62,6 +62,12 @@ First steps in analysing the data.
   - [ ] what is the patient distribution compared to geography? city vs country? vs real population?
 
   - [ ] what correlations exist in the data? correlate all vs all and cluster?
+
+  - [ ] what is the age distribution for various illnesses?
+    **peaks seem different for Depression compared to others**
+    [initial analysis](analysis/Illness_overview.ipynb)
+    - [ ] normalize against spread of data per age
+    - [ ] normalize against each other to compare peaks
 
 ## Questions
 
