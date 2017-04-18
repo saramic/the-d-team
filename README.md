@@ -94,6 +94,12 @@ First steps in analysing the data.
     
    - [ ] Does using certain drugs predicts development of additional illnesses in the future?
 
+  - [ ] how many different postcodes to patients buy from?
+    **35 for patient 109876 and only around half buy from 1**
+    [analysis](analysis/Stores_per_patient.ipynb)
+
+  - [ ] how far do patients buy from?
+
 ## Questions
 
 Suggested questions to ask (from the competition guidelines)
@@ -118,10 +124,19 @@ Suggested questions to ask (from the competition guidelines)
   * is a notebook exported to PDF enought?
   * demo of embedding [D3.js in notebook](https://github.com/cmoscardi/embedded_d3_example)
     * via [Embedding D3 in an IPython Notebook](http://blog.thedataincubator.com/2015/08/embedding-d3-in-an-ipython-notebook/)
+    * [D3 gallery](https://github.com/d3/d3/wiki/Gallery)
   * can draw with [Ciaro](http://www.tortall.net/mu/wiki/CairoTutorial)
   * interactive with [Bokeh](https://www.analyticsvidhya.com/blog/2015/08/interactive-data-visualization-library-python-bokeh/)
   * some examples
     * https://flipboard.com/@vinayk/data-analysis-%2C-infographics%2C-tools-%26-examples-1qt8tkraz
+    * [How to design infographics](https://designschool.canva.com/how-to-design-infographics/)
+    * lot's of visualization demos http://www.visualisingdata.com/resources/
+    * [sparklines on map demo](http://www.datascienceassn.org/content/geosparkgrams-tiny-histograms-map-ipython-notebook-and-d3js)
+    * [GIS information visualisation](https://au.pinterest.com/jennybarnard157/gis-information-visualisation/)
+    * [GIS visualization](https://au.pinterest.com/jcramac/gis/)
+    * [Visualization](https://au.pinterest.com/bhayek02/visualization/)
+    * [Beautiful plots with Pandas and matplotlib](https://datasciencelab.wordpress.com/2013/12/21/beautiful-plots-with-pandas-and-matplotlib/)
+    * http://dataviz.tools/category/interactive-charting/
 
   maps
   * read up more http://jupyter-gmaps.readthedocs.io/en/latest/gmaps.html
