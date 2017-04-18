@@ -262,6 +262,7 @@ Techniques to try on the data - based on examples/samples from books etc.
 
   - 1900 births
   - postcode in data wrong `1212	QLD	5615	1` should be 4615 for Qld
+  - store `408	TAS	NULL	0` has no postcode
   - postcode in our data out of date
 
       SELECT 5090 AS postcode
