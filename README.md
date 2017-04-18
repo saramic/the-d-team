@@ -14,16 +14,19 @@ First steps in analysing the data.
 
 ## Questions and Answers
 
-  - [ ] What is the most popular drug by number of transactions?
+  - [x] What is the most popular drug by number of transactions?
+    
     **Crestor**
     [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
 
-  - [ ] What are the 10 most popular drugs?
+  - [x] What are the 10 most popular drugs?
+    
     **CRESTOR, PANADOL OSTEO, LIPITOR, NEXIUM, COVERSYL, MICARDIS, SPIRIVA,
     NOTEN, ATACAND, SOMAC**
     [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
 
-  - [ ] What is the trend of the 10 most popular drugs?
+  - [x] What is the trend of the 10 most popular drugs?
+
     **They are mostly in decline, some with very sharp drops (Crestor,
     Lipitor, Micardis), a few still growing(Panadol Osteo, Spiriva)**
     [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
@@ -41,10 +44,12 @@ First steps in analysing the data.
   - [ ] In drug transactions over time, there is a peak in Dec and drop in Jan why?
     holidays? is it really so pronounced? ask a pharmacist?
 
-  - [ ] how many patients have an age?
+  - [x] how many patients have an age?
+    
     **only 6.8% - 37,809 out of 558,353**
 
-  - [ ] what is the distribution of age?
+  - [x] what is the distribution of age?
+    
     **Peak around 1945**
     [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/File_field_analysis.ipynb)
 
@@ -63,7 +68,8 @@ First steps in analysing the data.
 
   - [ ] what correlations exist in the data? correlate all vs all and cluster?
 
-  - [ ] what is the age distribution for various illnesses?
+  - [x] what is the age distribution for various illnesses?
+    
     **peaks seem different for Depression compared to others**
     [initial analysis](analysis/Illness_overview.ipynb)
     - [ ] normalize against spread of data per age
