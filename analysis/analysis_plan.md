@@ -1,8 +1,79 @@
 # Analysis plan
 Here we'll set ou the steps in our analysis
 
-## Data cleaning
-Check for outliers in different variables
+## Steps for Data Cleaning
+* Check for outliers in different variables, data which does not find any relevance  
+
+* Identify more variables where there might be missing data such as age (birth year 1990) and find ways to find relationship between varibles  
+
+* Identify new variables that would be required to required to gain more information about the data * * e.g buying delay = dispensed_week - prescription_week 
+
+* Find how corelated variables are with each other by coming up with corelation matrix 
+
+* Ideas for aggregation ( ? what does it mean ?) 
+
+*  Identify more variables that will help to  understand the data better * * e.g dispensed week and prescription week, buying delay (year wise)*
+
+* Michal was working on finding the relationship between system codes in the patients file to understand the relevance *  
+
+* isbannergroup - banner group is a group of pharmacies using one branding, but the owners have almost full autonomy in local advertising choice, is the owner of property etc. It's not a franchise and not a chain pharmacy.*
+
+**Trcking the migration pattern**
+* How does the health is affected when people move from one region to another 
+* When the patient moves to area with new postcode is the patient alloted new ID or old ID is carried forward 
+
+
+* NA in the gender- What has to be done with this 
+
+* Check what are the data formats for each variable and whether they are correct or need to some varible change ( int, string, date)
+
+* Find the missing cross references between lookups and trasanction files - state all the reasons 
+
+* Which data can be useful in categorical form (? Did not understand the meaning to ellaborate)
+
+**Find relation between dose recommended and patients**
+* Does new drug have effect in the buying pattern
+* Is there a way to find whether there is a case where the couples share a disease and are given one presecription
+* Is there a way to identify the overusage of drugs ( can be looked at the buying pattern of patients)
+* Come up with new variable (such as min recommended or max daily intake per drug) and relate them with amount of doses bought (can be found by using size of packging in drug lookup 
+* Check is there a delay between when the person will buy and when the dose will get over 
+
+* Is there a pattern between the treatment and when there are not eough drugs available 
+
+* Amount of drugs overall to the person diagonised with diseases 
+
+
+
+**Findings from Michal**
+* Which stores belong to which chains - checked, too difficult/impossible to enrich current data coexisting chronic illness and order of acquiring
+
+* Uniform way of naming variables
+
+**Can we come up with an interactive map to show what are the biggest problems in certain areas**
+
+**Seasonlity**
+* Find the sesonality between the outbrusts of the diseases 
+* How does seasonlity factor has affect on different location 
+* When the new medicine outbreaks in the market, does it have affect on buying pattern or change in the recommended usage 
+* Which cities are early adopters of new medication
+* Can it be used to predict how well it will fare in the rest of the country or early adopters based on any aggregation
+
+**Need to shift all the questions in trello in the structured form of situation/complication/questions/solutions with proper descroption** 
+* Need to find a place where this can be done - excel of kanban
+
+
+* Find a link betweeen mdedication PBS and medication prices
+* How does the annual update effect the consumption ( ?update of what?)
+* related columns GovernmentReclaim_Amt, Ethical_sth
+* Investigate the relation between whole sale price and patient price 
+* Look for more medication programs other than PBS
+* Look for immunisation statistics 
+* Look for the revenue in general ( reuse the app )
+* How advertising influence sales 
+* Understand the doctor and patient behaviour 
+
+
+
 Variables like Age where there is hidden "missing data" (here birth year 1900)
 How to treat missing data 
 Ideas for new variables (features) that we would need:
