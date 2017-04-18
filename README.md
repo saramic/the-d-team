@@ -113,7 +113,15 @@ Suggested questions to ask (from the competition guidelines)
 ## Tools
 
   infografic tool for final presnetation
-  * ...
+  * a good list http://www.creativebloq.com/infographic/tools-2131971
+  * is there a way to make a notebook look more like an infographic?
+  * is a notebook exported to PDF enought?
+  * demo of embedding [D3.js in notebook](https://github.com/cmoscardi/embedded_d3_example)
+    * via [Embedding D3 in an IPython Notebook](http://blog.thedataincubator.com/2015/08/embedding-d3-in-an-ipython-notebook/)
+  * can draw with [Ciaro](http://www.tortall.net/mu/wiki/CairoTutorial)
+  * interactive with [Bokeh](https://www.analyticsvidhya.com/blog/2015/08/interactive-data-visualization-library-python-bokeh/)
+  * some examples
+    * https://flipboard.com/@vinayk/data-analysis-%2C-infographics%2C-tools-%26-examples-1qt8tkraz
 
   maps
   * read up more http://jupyter-gmaps.readthedocs.io/en/latest/gmaps.html
@@ -180,6 +188,7 @@ Suggested questions to ask (from the competition guidelines)
 Techniques to try on the data - based on examples/samples from books etc.
 
   - [ ] Python/R notebooks
+    * a good resource https://github.com/donnemartin/data-science-ipython-notebooks
   - [ ] Deep Learning
     * based on examples from Deep Learning with Python - using Keras
       - [ ] binary classification - like classifying IMDB movie reviews
@@ -219,7 +228,6 @@ Techniques to try on the data - based on examples/samples from books etc.
     - local laptop
     - Databricks cluster
     - other?
-  - [ ] visualisation with React and D3.js
 
 ## Results
 
