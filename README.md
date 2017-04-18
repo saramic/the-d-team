@@ -101,7 +101,8 @@ First steps in analysing the data.
     - [ ] normalize against each other to compare peaks
     
    - [ ] Does using certain drugs predicts development of additional illnesses in the future?
-
+   
+   - [ ] What can be expected about drugs popularity based on NHS subsidizing updates each year?
 ## Questions
 
 Suggested questions to ask (from the competition guidelines)
