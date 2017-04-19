@@ -50,6 +50,7 @@ First steps in analysing the data.
   - [ ] What are the 10 most popular drugs with regards to amount of daily doses sold?
   
   - [ ] What leads to sudden drops in some popular drugs?
+    Possibly patents expiring, generics becoming available
 
   - [ ] Do many other drugs have sudden drops like Crestor, Lipitor, Micardis?
     what do they have in common?
@@ -108,15 +109,23 @@ First steps in analysing the data.
     - [ ] normalize against spread of data per age
     - [ ] normalize against each other to compare peaks
     
-   - [ ] Does using certain drugs predicts development of additional illnesses in the future?
+   - [ ] Does using certain drugs predict development of additional illnesses in the future?
    
    - [ ] What can be expected about drugs popularity based on NHS subsidizing updates each year?
 
-   - [ ] how much money is being made per store?
+   - [x] how much money is being made per store?
 
     **up to $1.75M per year per store in Inner Regional Australia in NSW,
-    interestingly there was a peak in 2012 and currently a declie**
+    interestingly there was a peak in 2012 and currently a decline**
     [analysis](analysis/Sales_per_store_by_region.ipynb)
+
+   - [ ] Can we predict the specialisation of physicians (prescribers) based on their prescriptions?
+
+   - [ ] Do prescribers exhibit brand loyalty when prescribing drugs?
+
+   - [ ] Can we predict the approximate location/concentration of prescribers based on postcodes?
+
+   - [ ] Can we predict the spread of viral/bacterial diseases (flu, cold, etc)?
 
 ## Questions
 
