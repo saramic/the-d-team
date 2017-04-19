@@ -291,6 +291,8 @@ Techniques to try on the data - based on examples/samples from books etc.
       , 'Metropolitan' AS regional_name
 
   - duplicate records???
+  - 150 patients with an invalid postcode < 800, feels like the last number was
+    dropped? is it regular like a page turn?
 
 ## Results
 
