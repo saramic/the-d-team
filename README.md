@@ -127,6 +127,9 @@ First steps in analysing the data.
 
    - [ ] Can we predict the spread of viral/bacterial diseases (flu, cold, etc)?
 
+   - [ ] are there any signs of epidemics where stores in a particular area
+     have an exponential growthi in a particular drug?
+
 ## Questions
 
 Suggested questions to ask (from the competition guidelines)
