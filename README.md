@@ -17,6 +17,10 @@ Our Key findings are as follows
 
 The submitted report can be found here: [The D Team Report]()
 
+## Submitted Kaggle Competition
+
+[leaderboard](https://inclass.kaggle.com/c/dsm2017/leaderboard)
+
 ## Outstanding questions and initial analysis
 
   [initial analysis](./INITIAL_ANALYSIS.md)

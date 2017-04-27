@@ -15,6 +15,14 @@
 		- [ ] 3 core finding streams
 		- [ ] the details
 		- [ ] conculusion/next steps
+    - [ ] visuals
+      - [ ] map
+      - [ ] complex graph
+      - [ ] network
+      - ...
+
+  * start on Kaggle
+    - [ ] if previously has been dispensed diabetes medication 1 else 0
 
 	* try techniques
 		- [ ] network diagram like D3.js or Gephi
@@ -257,6 +265,9 @@
 
 ## Tools
 
+  Visualisations
+  * http://datavizcatalogue.com/
+  * https://twitter.com/DataVizGuy
   infografic tool for final presnetation
   * a good list http://www.creativebloq.com/infographic/tools-2131971
   * is there a way to make a notebook look more like an infographic?
