@@ -68,11 +68,17 @@
 	**Long List**
 
   - [x] what can we identify from a local postcode of pharmacies?
-    [3070 Northcote](analysis/3070_northcote_store_analysis.ipynb)
 
     **A lot of customers go far and wide**
     For the customers around 3 stores, they have in all been to 750 store,
-    thats a large impact radius ;)
+    thats a large impact radius ;) [3070 Northcote](analysis/3070_northcote_store_analysis.ipynb)
+
+  - [x] what does a script look like over time?
+
+    **like a finger print of sorts**
+    As shown in [Patient Drug Useage](analysis/Patient_drug_usage.ipynb) this
+    is quite visual and could be used for catching change of drug trends etc.
+    Maybe try this with gerenic switchers.
 
   - [x] What is the most popular drug by number of transactions?
     
