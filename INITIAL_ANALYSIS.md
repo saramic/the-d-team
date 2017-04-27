@@ -3,49 +3,88 @@
 ## Data dictionary
   * [data schema](analysis/Database%20Diagram.pdf)
   * [File Field Analysis](analysis/File_field_analysis.ipynb)
+  * [DATA DICTIONARY](analysis/DATA_DICTIONARY.md)
 
 ## Questions and Answers
+
+	**Short List**
+
+	* final report
+		- [ ] beginning cartoon
+			- [ ] off side but interesting findings
+		- [ ] 3 core finding streams
+		- [ ] the details
+		- [ ] conculusion/next steps
+
+	* try techniques
+		- [ ] network diagram like D3.js or Gephi
+		- [ ] based on GraphX
+			- [ ] page rank on pharmacies as ranked by patients of other pharmacies, or
+						pateints of same drug, etc
+			- [ ] triangle distance on patients and drug and store and prescriber
+			- [ ] deriving taxonomies with MST
+						text analysis done using Word2vec and googles news wire data set
+    - [ ] based on examples from Spark in action book
+      - [ ] MLlib classification and clustering
+    - [ ] based on examples from Deep Learning with Python - using Keras
+			- [ ] binary classification - like classifying IMDB movie reviews
+			- [ ] multi-class classification - like classifying newswires
+			- [ ] regression - like predicting house prices
+	  - [ ] linear regression http://tutorials.iq.harvard.edu/R/Rstatistics/Rstatistics.html
+		- [ ] on random forrests but quite old? https://www.youtube.com/watch?v=kwt6XEh7U3g
+		- [ ] plot forest importance http://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
+
+	* get data
+		- [ ] [SEIFA](http://www.abs.gov.au/websitedbs/censushome.nsf/home/seifa)
+
+	* charting examples
+	  - [ ] [complex graphs tute](http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html)
+		- [ ] ggplot `facet_grid` from [Harvard RProgramming
+					Tute](http://tutorials.iq.harvard.edu/R/RProgramming/Rprogramming.html#final_england_and_wales_data_cleanup)
+	  - [ ] infographic and graph ideas in health care http://marketrealist.com/2016/03/generic-drugs-aid-curtail-health-care-costs/
+
+	- [ ] Patent drop offs
+		- [ ] who are the patients? prescribers? stores? socio economic areas?
+		- [ ] what can be predicted on drugs going out of patent?
+		- [ ] how can patient switches be catacorised?
+    - [ ] what is the cost/profit impact?
+		- [ ] is there a useage increas?
+		- [ ] why was there an observed cost and travel increas on lipitor?
+		- [ ] patent expiry past and present
+			- [ ] [Pharmacomasss Patent Expiry](http://www.pharmacompass.com/patent-expiry-expiration) with our data set.
+  		- [ ] parse this https://newdrugapprovals.org/patent-expiry/
+  		- [ ] and this https://www.drugs.com/article/patent-expirations.html
+
+  - [ ] how far do patients buy from?
+
+	**Long List**
 
   - [x] What is the most popular drug by number of transactions?
     
     **Crestor**
-    [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
+    [Most Popular Drug NB](analysis/Most_popular_drug.ipynb)
 
   - [x] What are the 10 most popular drugs?
     
     **CRESTOR, PANADOL OSTEO, LIPITOR, NEXIUM, COVERSYL, MICARDIS, SPIRIVA,
     NOTEN, ATACAND, SOMAC**
-    [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
+    [Most Popular Drug NB](analysis/Most_popular_drug.ipynb)
 
   - [x] What is the trend of the 10 most popular drugs?
 
     **They are mostly in decline, some with very sharp drops (Crestor,
     Lipitor, Micardis), a few still growing(Panadol Osteo, Spiriva)**
-    [analysis link](https://github.com/saramic/the-d-team/blob/master/analysis/Most_popular_drug.ipynb)
-
-  - [ ] What are the 10 most popular drugs with regards to amount of daily doses sold?
-  
-  - [ ] What leads to sudden drops in some popular drugs?
-    Possibly patents expiring, generics becoming available
-
-  - [ ] Do many other drugs have sudden drops like Crestor, Lipitor, Micardis?
-    what do they have in common?
-
-  - [ ] Given that there is a general growth in useage, what is replacing the
-    use of Crestor, Lipitor, Micardis?
+    [Most Popular Drug](analysis/Most_popular_drug.ipynb)
 
     **Lipitor went out of patent Nov 2011 and by Jan 2012 70% of users switched
     onto generics**
     [initial analysis](analysis/Lipitor_replacement.ipynb)
 
-    - [ ] who are the people who switched? by geo, by store, etc
-    - [ ] what is the cost impact?
-    - [ ] why is there no increase in useage?
-
-  - [ ] In drug transactions over time, there is a peak every 3 months or so why?
-
-  - [ ] In drug transactions over time, there is a peak in Dec and drop in Jan why?
+  - [x] In drug transactions over time, there is a peak in Dec and drop in Jan why?
     holidays? is it really so pronounced? ask a pharmacist?
+
+		**More people reaching the safety net** in fact the last days of the year
+		are businest for chemists as the saftey net resets on 1st Jan
 
   - [x] how many patients have an age?
     
@@ -56,8 +95,6 @@
     **35 for patient 109876 and only around half buy from 1**
     [analysis](analysis/Stores_per_patient.ipynb)
 
-  - [ ] how far do patients buy from?
-  
   - [x] what is the distribution of age?
     
     **Peak around 1945**
@@ -127,17 +164,17 @@
 
   _from the competition guidelines_
 
-  - [ ] Are there any data quality issues?
-  - [ ] Are there any demographic patterns in illnesses?
-  - [ ] Which pharmacies have best patient loyalty; is loyalty age skewed?
-  - [ ] Distribution of packet sizes (are larger pack sizes favoured, why?
-        Does this change by geographical location?)
-  - [ ] Are generic medicines favoured by any geographical location, age or gender?
-  - [ ] Any explanation of the seasonal demand patterns?
-  - [ ] Any specific seasonal patterns for particular drugs?
-  - [ ] Any suspicious behavior in the data?
-  - [ ] Can patients be clustered by drug usage patterns?
-  - [ ] Any insights about where the trajectory of the health of Australia is heading?
+  *  Are there any data quality issues?
+  *  Are there any demographic patterns in illnesses?
+  *  Which pharmacies have best patient loyalty; is loyalty age skewed?
+  *  Distribution of packet sizes (are larger pack sizes favoured, why?
+     Does this change by geographical location?)
+  *  Are generic medicines favoured by any geographical location, age or gender?
+  *  Any explanation of the seasonal demand patterns?
+  *  Any specific seasonal patterns for particular drugs?
+  *  Any suspicious behavior in the data?
+  *  Can patients be clustered by drug usage patterns?
+  *  Any insights about where the trajectory of the health of Australia is heading?
 
   **Questions for hackday 2**
 
@@ -145,7 +182,6 @@
   - [ ] What happens to store ID when a pharmacy owner changes/it joins or leaves a banner group?
   - [ ] What are the interpretations of the columns with to be confirmed status in Field Analysis file?
   
-
 ## Bad data
 
   - 1900 births
@@ -184,6 +220,7 @@
     Or potentially this http://www.aihw.gov.au/rural-health-remoteness-classifications/
 
   * Census
+		[Socio Economic Index For Areas](http://www.abs.gov.au/websitedbs/censushome.nsf/home/seifa)
 
   * **Health Direct Medicine catalogue**
     https://www.healthdirect.gov.au/medicines/search-results/A?pageIndex=1.1
@@ -199,6 +236,24 @@
       http://www.pbs.gov.au/pbs/search?term=cefotaxime&analyse=false&search-type=medicines
     * Pharmaceutical Benefits Scheme https://www.pbs.gov.au/info/browse/download
       not sure how useful, it has a lot of doseage and potentially a characterisation like ATC?
+
+  * **Patent Expiry**
+    * simple list with dates from [Pharmacomasss Patent Expiry](http://www.pharmacompass.com/patent-expiry-expiration)
+    * some past expiries https://newdrugapprovals.org/patent-expiry/
+    * more links to patent expiry, how to calculate etc https://www.informationvine.com/index?qsrc=999&qo=semQuery&ad=semD&o=36180&l=sem&askid=a3de4dcd-9b5d-4037-b8d9-d2eceec7ea14-0-iv_gsb&q=patent%20expiration%20dates&dqi=&am=broad&an=google_s
+    * $75 for 10 day access but some preview https://www.drugpatentwatch.com/p/patent-expiry/2017
+
+  * **More on drugs**
+    * things like sideffects https://www.drugs.com/drug_information.html
+    * by patent like https://www.google.com/patents/US6011020
+    * including images http://www.webmd.com/drugs/2/drug-64439/abilify-oral/details#images
+    * also https://pubchem.ncbi.nlm.nih.gov/compound/24847876
+    * on generics http://marketrealist.com/2016/03/generic-drugs-aid-curtail-health-care-costs/
+      in particular small infographic on cost saving
+    * more on projections of pharmaceuticals https://www.drugs.com/slideshow/looking-ahead-pharma-projections-for-2016-and-beyond-1230
+
+  * **Social Media**
+    * [Mining twitter data](http://tutorials.iq.harvard.edu/Python/twitter/)
 
 ## Tools
 
