@@ -64,6 +64,7 @@
   		- [ ] and this https://www.drugs.com/article/patent-expirations.html
 
   - [ ] how far do patients buy from?
+  - [ ] distance spread for patients to a store by 75% `NTH(4, QUANTILES(distance, 5)) AS seventy_fifth`
 
 	**Long List**
 
