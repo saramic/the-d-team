@@ -49,6 +49,9 @@
 	  - [ ] [complex graphs tute](http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html)
 		- [ ] ggplot `facet_grid` from [Harvard RProgramming
 					Tute](http://tutorials.iq.harvard.edu/R/RProgramming/Rprogramming.html#final_england_and_wales_data_cleanup)
+    - [ ] Faceting from http://blog.yhat.com/posts/ggplot-for-python.html
+          and http://blog.yhat.com/posts/ggplot-0.4-released.html
+          also saving to png with ggsave
 	  - [ ] infographic and graph ideas in health care http://marketrealist.com/2016/03/generic-drugs-aid-curtail-health-care-costs/
 
 	- [ ] Patent drop offs
