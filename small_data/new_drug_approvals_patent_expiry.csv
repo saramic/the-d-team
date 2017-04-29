@@ -1,0 +1,44 @@
+expiry year,drug,condition,company,$USD 2010 sales
+2011-12-31,Lipitor,cholesterol,Pfizer,5329000000
+2011-12-31,Zyprexa,antipsychotic,Eli Lily,2496000000
+2011-12-31,Levaquin,antibiotics,Johnson & Johnson,1312000000
+2011-12-31,Concerta,ADHD/ADD,Johnson & Johnson,929000000
+2011-12-31,Protonix,antacid,Pfizer,690000000
+2012-12-31,Plavix,anti-platelet,Bristol-Myers Squibb /Sanofi-Aventis,6154000000
+2012-12-31,Seroquel,antipsychotic,AstraZeneca,3747000000
+2012-12-31,Singulair,asthma,Merck,3224000000
+2012-12-31,Actos,type 2 diabetes,Takeda,3351000000
+2012-12-31,Enbrel,arthritis,Amgen,3304000000
+2013-01-01,Rizatriptan,Migraine,Merck,
+2013-02-01,Ertapenem,Antibiotic,Merck,
+2013-03-01,Caspofungi,Antibiotic,Merck,
+2013-03-01,Rituximab,Biopharm,Gentech,
+2013-04-01,Tegaserod,Gastro,Novartis,
+2013-05-01,Imatinib Mesylate,Oncology,Novartis,
+2013-05-01,Insulin Lispro,Diabetes,Eli Lilly,
+2013-06-01,Decliximab,Biopharm,Protein Design,
+2013-07-01,Teriparatide,Hormone,Eli Lilly,
+2013-08-01,Erytropoietin,Biopharm,Amgen,
+2013-08-01,Eletriptan,Migraine,Merck,
+2013-09-01,Insulin Aspart,Diabetes,Novo,
+2013-10-01,Voriconazole,Antibiotic,Pfizer,
+2013-10-01,Almotriptan,Migraine,Pharmacia,
+2013-10-01,Montelukast,Respiratory,Merck,
+2013-12-01,Risedronate Sodium,Hormone,P & G,
+2013-12-01,Palvizumab,Biopharm,Medi Immune,
+2013-12-01,Grepafloxacin,Antibiotic,Glaxo,
+2014-01-01,Telmistran,C.V.,
+2014-04-01,Insulin Glargin,Diabetes,Aventis,
+2014-05-01,Esomeprazole,Gastro,A.Z.,
+2014-08-01,Posaconazole,Antibiotic,Shering,
+2014-10-01,Transtuzumab,Biopharm,Gentech,
+2014-11-01,Linezolid,Antibiotic,Pharmacia,
+2014-12-01,Colesevelam,C.V.,Geltek,
+2014-12-01,Idiotypic CEA,Oncology,Titan,
+2015-02-01,Omalizumb,Respiratory,Roche,
+2015-04-01,Telethromycin,Antibiotic,Aventis,
+2015-06-01,Gemifloxacin,Antibiotic,GSK,
+2015-06-01,Omaptrilar,C.V.,B.M.,
+2015-06-01,Abciximab,Biopharm,Gentocore,
+2015-12-01,Alemtuzumb,Oncology,Millennium,
+2016-03-01,Pitavastatin,C.V.,Nissan,

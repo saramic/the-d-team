@@ -58,10 +58,14 @@
     - [ ] what is the cost/profit impact?
 		- [ ] is there a useage increas?
 		- [ ] why was there an observed cost and travel increas on lipitor?
-		- [ ] patent expiry past and present
-			- [ ] [Pharmacomasss Patent Expiry](http://www.pharmacompass.com/patent-expiry-expiration) with our data set.
-  		- [ ] parse this https://newdrugapprovals.org/patent-expiry/
-  		- [ ] and this https://www.drugs.com/article/patent-expirations.html
+		- [x] patent expiry past and present
+			- [x] [Pharmacomasss Patent Expiry](http://www.pharmacompass.com/patent-expiry-expiration) with our data set.
+  		- [x] parse this https://newdrugapprovals.org/patent-expiry/
+  		- [x] and this https://www.drugs.com/article/patent-expirations.html
+
+      **Some more results** but not all the drugs have a drop off and some not
+      at the time of the claimed patent [Going Off Patent](analysis/Going_off_patent.ipynb)
+    
 
   - [ ] how far do patients buy from?
   - [ ] distance spread for patients to a store by 75% `NTH(4, QUANTILES(distance, 5)) AS seventy_fifth`
