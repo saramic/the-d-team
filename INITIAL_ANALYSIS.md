@@ -22,7 +22,7 @@
       - ...
 
   * start on Kaggle
-    - [ ] if previously has been dispensed diabetes medication 1 else 0
+    - [x] if previously has been dispensed diabetes medication 1 else 0
 
 	* try techniques
 		- [ ] network diagram like D3.js or Gephi
