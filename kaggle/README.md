@@ -13,7 +13,7 @@ likely hood of someone taking Diabetes related medication.
 ### Simple Linear regression
 
 If useage is going clearly down mark as 0 if it is going up as 1 as per micro
-analysis in [Pateint Year Illness](kaggle/Patient_Year_Illness.ipynb)
+analysis in [Pateint Year Illness](Patient_Year_Illness.ipynb)
 
 ### Baseline
 
