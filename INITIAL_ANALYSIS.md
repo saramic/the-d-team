@@ -47,6 +47,8 @@
 
 	* charting examples
 	  - [ ] [complex graphs tute](http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html)
+		- [x] ggplot `facet_wrap` from [Harvard RProgramming
+					Tute](http://tutorials.iq.harvard.edu/R/RProgramming/Rprogramming.html#final_england_and_wales_data_cleanup)
 		- [ ] ggplot `facet_grid` from [Harvard RProgramming
 					Tute](http://tutorials.iq.harvard.edu/R/RProgramming/Rprogramming.html#final_england_and_wales_data_cleanup)
     - [ ] Faceting from http://blog.yhat.com/posts/ggplot-for-python.html

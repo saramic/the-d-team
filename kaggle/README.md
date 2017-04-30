@@ -10,6 +10,13 @@ likely hood of someone taking Diabetes related medication.
 
 ## Attempts
 
+### Simple Linear regression
+
+If useage is going clearly down mark as 0 if it is going up as 1 as per micro
+analysis in [Pateint Year Illness](kaggle/Patient_Year_Illness.ipynb)
+
+### Baseline
+
 Patient id between 279,201 and 558,352 leading to 279,153 rows including a
 header with the probablility in the range [0-1].
 
