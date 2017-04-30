@@ -3,6 +3,11 @@
 As part of the MelbDatathon2017 there is a Kaggle competition to predict the
 likely hood of someone taking Diabetes related medication.
 
+## Questions
+
+- [ ] do we get marks for people coming off medication? or do the 1's stay 1's
+  for ever?
+
 ## Attempts
 
 Patient id between 279,201 and 558,352 leading to 279,153 rows including a
