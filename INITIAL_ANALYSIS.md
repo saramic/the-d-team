@@ -43,7 +43,7 @@
 		- [ ] plot forest importance http://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
 
 	* get data
-		- [ ] [SEIFA](http://www.abs.gov.au/websitedbs/censushome.nsf/home/seifa)
+		- [x] [SEIFA](http://www.abs.gov.au/websitedbs/censushome.nsf/home/seifa)
 
 	* charting examples
 	  - [ ] [complex graphs tute](http://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html)
