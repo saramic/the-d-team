@@ -54,6 +54,7 @@
     - [ ] Faceting from http://blog.yhat.com/posts/ggplot-for-python.html
           and http://blog.yhat.com/posts/ggplot-0.4-released.html
           also saving to png with ggsave
+          also a mutli colour point plot
 	  - [ ] infographic and graph ideas in health care http://marketrealist.com/2016/03/generic-drugs-aid-curtail-health-care-costs/
 
 	- [ ] Patent drop offs
