@@ -123,3 +123,13 @@ Good luck!
     Points:   this competition does not award ranking points 
     Tiers:    this competition does not count towards tiers
 
+## More Reading
+
+  - [ ] https://www.import.io/post/how-to-win-a-kaggle-competition/
+  - [ ] https://chrisdlangton.ghost.io/2017/04/21/week-1-kaggle-competition-melbdarathon2017/
+  - [ ] http://tiberius.biz/ausdm09/index.html#4
+  - [ ] https://www.kaggle.com/c/hhp#milestone-winners
+  - [ ] https://www.kaggle.com/c/hhp#milestone-winners
+  - [ ] [Datathon tutorial](https://docs.google.com/presentation/d/1LkurpfhvI9JAO_OCCJNgsU436mJBwMU3t9pv9knZmmE/edit#slide=id.g1d6e8e07d1_0_138)
+  - [ ] https://inclass.kaggle.com/c/dsm2017/forums/t/31747/problems-about-training-data-truth?forumMessageId=176094#post176094
+  - [ ] http://www.datasciencemelbourne.com/datathon/important-update/
