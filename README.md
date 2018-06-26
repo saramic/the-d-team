@@ -24,3 +24,5 @@ The submitted report can be found here: [The D Team Report]()
 ## Outstanding questions and initial analysis
 
   [initial analysis](./INITIAL_ANALYSIS.md)
+  
+I might make this public now
